@@ -282,9 +282,7 @@
   <script>
     // ── CONFIG ──────────────────────────────────────────────────────────────────
     // Change this to your backend server IP/domain when deploying
-    const API = window.location.hostname === 'localhost'
-      ? 'http://localhost:5000/api'
-      : `http://${window.location.hostname}:5000/api`;
+    const API = '/api';
 
     let allStudents = [];
     let editingId = null;
